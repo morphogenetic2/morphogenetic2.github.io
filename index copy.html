@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fluoplate designer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.47.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/windicss-runtime-dom"></script>
+  </head>
+  <body>
+    <div class="text-2xl">
+      This is a Fluoplate programmer. Just input your data below, values in
+      &mu;W/cm<sup>2</sup>, max intensity is 2000 &mu;W/cm<sup>2</sup>
+    </div>
+
+    <table>
+      <thead>
+        <th></th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+      </thead>
+      <tr>
+        <td>A</td>
+
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="0"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="1"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="2"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="3"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="4"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="5"
+            onchange="updatecolor()"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>B</td>
+
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="6"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="7"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="8"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="9"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="10"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="11"
+            onchange="updatecolor()"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>C</td>
+
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="12"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="13"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="14"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="15"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="16"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="17"
+            onchange="updatecolor()"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>D</td>
+
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="18"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="19"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="20"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="21"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="22"
+            onchange="updatecolor()"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            class="w-24 h-24 text-2xl text-center rounded-full input input-bordered"
+            id="23"
+            onchange="updatecolor()"
+          />
+        </td>
+      </tr>
+    </table>
+    <div class="flex">
+      <div class="flex-initial p-6">
+        <input
+          type="range"
+          min="1"
+          max="4095"
+          value="2048"
+          class="range w-[550px]"
+          id="bckg-range"
+          oninput="updatecolor()"
+        />
+      </div>
+    </div>
+    <p>
+      Constant fill:
+      <input
+        type="text"
+        id="fillconstant"
+        class="w-[80px] input input-bordered text-center"
+        onclick="this.select()"
+      />
+      <button class="btn" onclick="fillconstant(); updatecolor()">Fill</button>
+    </p>
+    <p>
+      Gradient fill: from
+      <input
+        type="text"
+        oninput="setgradient()"
+        onclick="this.select()"
+        id="gstart"
+        class="input input-bordered w-[80px] text-center"
+      />
+      to
+      <input
+        type="text"
+        id="gend"
+        class="input input-bordered w-[80px] text-center"
+        oninput="setgradient()"
+        onclick="this.select()"
+      />
+      with increment
+      <input
+        type="text"
+        id="ginc"
+        class="input input-bordered w-[80px] text-center"
+        onclick="this.select()"
+      />
+
+      <button
+        class="btn"
+        id="automatic"
+        onclick="fillgradient();updatecolor();"
+      >
+        Fill plate
+      </button>
+    </p>
+
+    <p>
+      Timing: active (s)
+      <input
+        type="text"
+        id="active-time"
+        class="input input-bordered w-[80px] text-center"
+        value="20"
+        onclick="this.select()"
+      />
+      inactive (s)
+      <input
+        type="text"
+        id="inactive-time"
+        class="input input-bordered w-[80px] text-center"
+        value="30"
+        onclick="this.select()"
+      />
+    </p>
+    <p>
+      Total run time
+      <input
+        type="text"
+        id="total-time"
+        class="input input-bordered w-[80px] text-center"
+        value="300"
+        onclick="this.select()"
+      />
+      <select
+        class="select select-bordered w-[120px]"
+        id="time-select"
+        onchange="updateMultiplier()"      >
+        <option value="none" selected>Select</option>
+        <option value="minutes">minutes</option>
+        <option value="hours">hours</option>
+      </select>
+    </p>
+
+    <p>
+      <button class="btn" id="clearbtn" onclick="clearbtn();updatecolor()">
+        Clear plate
+      </button>
+
+      <button class="btn" id="download" onclick="createJSON()">Download</button>
+      <button class="btn" id="load" onclick="loadJSON()">Load plate</button>
+    </p>
+
+    <script>
+      //initialize the object that will be converted to JSON later
+      const plate = {};
+      //multiplier: global variable to set the multiplier of the dropdown selector
+      let multiplier;
+      //function to clear the plate
+      function clearbtn() {
+        for (i = 0; i < 24; i++) {
+          document.getElementById(i).value = "";
+        }
+      }
+
+      //function to fill the plate with the same constant value
+      function fillconstant() {
+        let fillconstant = document.getElementById("fillconstant").value;
+        for (i = 0; i < 24; i++) {
+          document.getElementById(i).value = fillconstant;
+        }
+      }
+
+      //function to fill the plate with the gradient specified
+      function fillgradient() {
+        if (
+          document.getElementById("ginc").value == null ||
+          document.getElementById("ginc").value == ""
+        ) {
+          setgradient();
+        } else {
+          let gstart = document.getElementById("gstart").value;
+          let gend = document.getElementById("gend").value;
+          let ginc = document.getElementById("ginc").value;
+
+          for (i = 0; i < 24; i++) {
+            let cellvalue = +gstart + +i * +ginc;
+            document.getElementById(i).value = cellvalue;
+          }
+        }
+      }
+
+      //function that sets the gradient step according to the gstart and gend inputs
+      function setgradient() {
+        let gstart = document.querySelector("#gstart").value;
+        let gend = document.querySelector("#gend").value;
+        let increment = (gend - gstart) / 24;
+        document.querySelector("#ginc").value = Math.ceil(increment);
+      }
+
+      /*this function reads the values of the table and appends them to the plate object, and then
+      adds the active-time, inactive-time and total-time to the JSON, then creates a file and a temporarily hidden
+      link, clicks it automatically and downloads the file
+      */
+
+      function updateMultiplier() {
+        let selectedValue = document.getElementById("time-select").value;
+        if (selectedValue === "minutes") {
+          multiplier = 1;
+        } else if (selectedValue === "hours") {
+          multiplier = 60;
+        }
+      }
+
+      function createJSON() {
+        for (i = 0; i < 24; i++) {
+          plate[i] = +document.getElementById(i).value;
+        }
+
+        plate["time_minutes"] =
+          +document.getElementById("total-time").value * multiplier;
+        plate.keepalive = 60;
+        plate.function = "constant";
+        plate.pulse = +document.getElementById("active-time").value;
+        plate.pause = +document.getElementById("inactive-time").value;
+
+        //let salida = (document.querySelector("#output").innerHTML =JSON.stringify(plate));
+
+        var jsonData =
+          "text/json;charset=utf-8," +
+          encodeURIComponent(JSON.stringify(plate));
+
+        var a = document.createElement("a");
+        a.href = "data:" + jsonData;
+        a.download = "out_plate.json";
+        a.innerHTML = "Download JSON";
+
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      }
+
+      //this function updates the background color of the table according to its value
+      function updatecolor() {
+        for (i = 0; i < 24; i++) {
+          let range = +document.getElementById("bckg-range").value;
+          let intensity = +document.getElementById(i).value;
+          let newcolor = "rgb(0,0,255," + intensity / range + ")";
+          document.getElementById(i).style.background = newcolor;
+        }
+      }
+
+      function download() {
+        createJSON();
+        var a = document.createElement("a");
+        a.href = "data:" + data;
+        a.download = "data.json";
+        a.innerHTML = "download";
+
+        var container = document.querySelector("#download");
+        container.appendChild(a);
+      }
+
+      function loadJSON() {}
+    </script>
+  </body>
+</html>
